@@ -1,0 +1,13 @@
+body {
+    background: #177E89;
+    color: #fff;
+}
+
+p, h1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title-github-host, .title-heroku-host {
+    font-size: 2rem;
+}
