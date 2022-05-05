@@ -8,6 +8,11 @@ p, h1 {
     margin-right: 10%;
 }
 
+#Intro {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
 .title-github-host, .title-heroku-host {
     font-size: 2rem;
 }
