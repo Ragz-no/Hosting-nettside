@@ -18,11 +18,25 @@ p, h1, h2 {
 }
 
 .big-title {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .title-github-host, .title-heroku-host {
     font-size: 2rem;
+    margin-top: 2%;
+}
+
+footer {
+    background-color: #fff; 
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    font-size: 1.25rem;
+}
+
+.footer-text {
+    padding-top: 2%;
+    color: black;
 }
 
 #github-img {
