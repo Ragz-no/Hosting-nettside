@@ -21,9 +21,24 @@ p, h1, h2 {
     font-size: 3rem;
 }
 
+
 .title-github-host, .title-heroku-host {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 2%;
+}
+
+#steg1-text {
+    display: flex;
+    align-items:center;
+}
+
+#github-repo-img {
+    width: 300px;
+    height: 540px;
+    left: 10%;
+    position: relative;
+    display: flex;
+    align-items:center;
 }
 
 footer {
