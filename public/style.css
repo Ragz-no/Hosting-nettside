@@ -21,11 +21,14 @@ p, h1, h2 {
     font-size: 3rem;
 }
 
-
 .title-github-host, .title-heroku-host {
     font-size: 3rem;
     margin-top: 2%;
 }
+
+/* #tutorial-github {
+
+} */
 
 #steg1-text {
     display: flex;
