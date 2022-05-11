@@ -26,6 +26,15 @@ p, h1, h2 {
     margin-top: 2%;
 }
 
+a {
+    color: #fff;
+}
+
+a:hover {
+    cursor: pointer;
+    color: rgb(124, 23, 23);
+}
+
 /* #tutorial-github {
 
 } */
