@@ -35,14 +35,20 @@ a:hover {
     color: rgb(124, 23, 23);
 }
 
+
+#middle-title {
+    margin-top: 10%;
+    font-size: 2.50rem;
+    font-weight: bolder;
+}
+
+#middle-paragraph {
+    margin-bottom: 10%;
+}
+
 /* #tutorial-github {
 
 } */
-
-#steg1-text {
-    display: flex;
-    align-items:center;
-}
 
 footer {
     background-color: #fff; 
@@ -58,8 +64,6 @@ footer {
 }
 
 #github-img {
-    margin-left: 10%;
-    margin-top: 2%;
     height: 300px;
     width: 800px;
 }
@@ -67,14 +71,21 @@ footer {
 #github-repo-img {
     width: 300px;
     height: 600px;
-    margin-left: 10%;
-    margin-bottom: 2%;
 }
 
 #github-create-repo {
+    width: 600px;
+}
+
+#github-repo-terminal-setup {
+    width: 1000px;
+    height: 600px;
+}
+
+#github-repo-terminal-setup, #github-create-repo, #github-img, #github-repo-img {
+    margin-bottom: 2%;
     margin-left: 10%;
     margin-bottom: 2%;
-    width: 600px;
 }
 
 @media only screen and (max-width: 549px) {
