@@ -44,15 +44,6 @@ a:hover {
     align-items:center;
 }
 
-#github-repo-img {
-    width: 300px;
-    height: 540px;
-    left: 10%;
-    position: relative;
-    display: flex;
-    align-items:center;
-}
-
 footer {
     background-color: #fff; 
     text-align: center;
@@ -68,9 +59,22 @@ footer {
 
 #github-img {
     margin-left: 10%;
+    margin-top: 2%;
+    height: 300px;
+    width: 800px;
+}
+
+#github-repo-img {
+    width: 300px;
+    height: 600px;
+    margin-left: 10%;
     margin-bottom: 2%;
-    height: 200px;
-    width: 500px;
+}
+
+#github-create-repo {
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 600px;
 }
 
 @media only screen and (max-width: 549px) {
