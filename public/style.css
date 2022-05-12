@@ -104,6 +104,10 @@ footer {
     margin-right: 10%;
 }
 
+.card-header {
+    font-size: 3rem;
+}
+
 .card-text, .card-header {
     color: black;
 }
