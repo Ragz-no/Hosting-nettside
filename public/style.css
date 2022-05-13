@@ -27,7 +27,7 @@ p, h1, h2 {
 }
 
 a {
-    color: #fff;
+    color: black;
 }
 
 a:hover {
@@ -108,6 +108,7 @@ footer {
     font-size: 3rem;
 }
 
-.card-text, .card-header {
+.card-text, .card-header, .card-title {
     color: black;
+    margin-left: 0%;
 }
