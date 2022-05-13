@@ -112,3 +112,16 @@ footer {
     color: black;
     margin-left: 0%;
 }
+
+.card-text {
+    margin-top: 1%;
+}
+
+
+#heroku-img {
+    background: #fff;
+    width: 500px;
+    height: 530px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
