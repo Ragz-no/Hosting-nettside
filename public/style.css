@@ -36,6 +36,11 @@ a:hover {
     color: black;
 }
 
+#Steg1-heroku {
+    width: 500px;
+    margin-left: 30%;
+}
+
 
 #middle-title {
     margin-top: 10%;
