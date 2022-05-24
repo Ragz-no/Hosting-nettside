@@ -1,14 +1,15 @@
 <%- include('partials/header') %>
   <section id="navbar">
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+      <div class="container-fluid navcon">
         <a class="navbar-brand" href="/">Hovedside</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <button class="navbar-toggler" type="button" data-bs-target="#navbarNav" data-bs-toggle="collapse" 
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNavToggler">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/GitHub">GitHub</a>
             </li>
@@ -23,11 +24,8 @@
 
   <section id="Intro-github">
     <h2 class="fw-bolder title-github-host">Hvordan hoste på GitHub?</h2>
-    <img src="images/github-logo.png" id="github-img" alt="Bilde av Github logo">
-    <h2 id="middle-title">Hva er GitHub?</h2>
-    <p id="middle-paragraph">GitHub er en nettside og skybasert tjeneste som hjelper utviklere med å
-      lagre og administrere koden deres, samt spore og kontrollere endringer
-      i koden deres.</p>
+    <img src="https://www.kindpng.com/picc/m/128-1280187_github-logo-png-github-transparent-png.png" class="mx-auto d-block" id="github-img" alt="Bilde av Github logo">
+    <button type="button" class="btn btn-outline-light btn-lg mx-auto d-block"><a href="https://devcenter.heroku.com/articles/heroku-cli">Last ned Git</a></button>
   </section>
 
   <section id="tutorial-github">

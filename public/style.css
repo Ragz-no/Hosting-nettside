@@ -27,12 +27,13 @@ p, h1, h2 {
 }
 
 a {
-    color: black;
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
     cursor: pointer;
-    color: rgb(124, 23, 23);
+    color: black;
 }
 
 
@@ -66,6 +67,7 @@ footer {
 #github-img {
     height: 300px;
     width: 800px;
+    margin-top: 2%;
 }
 
 #github-repo-img {
@@ -136,6 +138,10 @@ footer {
     margin-top: 5%;
 }
 
+#img1-heroku-3 {
+    width: 900px;
+}
+
 .Github-sammenligning {
     margin-top: 5%;
 }
@@ -143,3 +149,5 @@ footer {
 .btn {
     margin-bottom: 2%;
 }
+
+
