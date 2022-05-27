@@ -27,15 +27,20 @@ p, h1, h2 {
     margin-top: 2%;
 }
 
-a {
-    color: black;
+.intro-link{
+    color: #fff;
     text-decoration: none;
 }
 
-a:hover {
-    cursor: pointer;
-    color: black;
+.intro-link:hover {
+    color: #000;
 }
+ 
+a {
+    text-decoration: none;
+}
+
+
 
 #Steg1-heroku {
     width: 500px;
