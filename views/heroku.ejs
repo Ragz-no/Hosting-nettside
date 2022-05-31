@@ -22,7 +22,7 @@
 
 
 <section id="Heroku-intro">
-    <h2 class="fw-bolder text-center title-heroku-host">Hvordan hoste en web app på Heroku?</h2>
+    <h1 class="fw-bolder text-center title-heroku-host">Hvordan hoste en web app på Heroku?</h1>
     <img src="images/Heroku.png" id="heroku-img" class="mx-auto d-block" alt="Bilde av Heroku logo">
     <button type="button" class="btn btn-outline-light btn-lg mx-auto d-block"><a class="intro-link" href="https://devcenter.heroku.com/articles/heroku-cli">Last ned Heroku CLI</a></button>
 </section>
@@ -68,8 +68,31 @@
       <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#define-a-procfile" target="_blank" class="btn btn-dark">Dokumentasjon</a>
     </div>
   </div>
+
+
+  <div class="card">
+    <h5 class="card-header text-center">Steg 4 - Åpne Heroku nettsiden</h5>
+    <div class="card-body">
+      <img src="images/Steg4-heroku.png" height="70" alt="Bilde av en random web app"/>
+      <p class="card-text">For å finne din web app, må du navigere deg til <a href="https://dashboard.heroku.com/apps">Heroku sin dashboard.</a></p>
+      <img src="images/Steg4-2-heroku.png" alt="Bilde av web appen i heroku sine innstillinger">
+      <p class="card-text">Etter du har klikket på heroku serveren din sitt navn, ser du dette.
+        Nå skal du trykke på "open app" for å få nettsiden din opp.</p>
+    </div>
+  </div>
 </section>
 
-
+<section id="video.js">
+  <video id="my-video" class="video-js mx-auto d-block" controls preload="auto" width="640" height="300"
+    poster="images/GithubVSHeroku.jpeg" data-setup="{}" alt="video av hvordan man setter opp..">
+    <source src="images/0258d89a6fcc664618207669f2afc52f.mp4" type="video/mp4" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+</section>
 
 <%- include('partials/footer') %>
