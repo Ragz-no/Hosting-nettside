@@ -160,4 +160,17 @@ footer {
     margin-bottom: 2%;
 }
 
+#title-photo {
+    width: 50%;
+    height: auto;
+}
 
+.img-home {
+    width: 50%;
+    height: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
