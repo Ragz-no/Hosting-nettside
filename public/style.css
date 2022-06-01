@@ -42,8 +42,7 @@ a {
 
 
 #Steg1-heroku {
-    width: 500px;
-    margin-left: 30%;
+    width: 550px;
 }
 
 
@@ -81,8 +80,8 @@ footer {
 }
 
 #github-repo-img {
-    width: 300px;
-    height: 600px;
+    width: 30%;
+    height: auto;
 }
 
 #github-create-repo {
@@ -115,6 +114,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1712px) {
+    .responsive{
+        width: 90%;
+    }
+}
+
 /*HEROKU SEKSJON STARTER HER*/
 
 .card {
@@ -136,7 +141,17 @@ footer {
     font-size: 1.25rem;
 }
 
+#touch-proc, #procfile-definition {
+    width: 50%;
+    height: auto;
+}
 
+@media only screen and (max-width: 1160px) {
+    #img1-heroku-3, #Steg4-heroku, #Steg4-heroku-2 {
+        width: 100%;
+        height: auto;
+    }
+}
 #heroku-img {
     background: #fff;
     width: 500px;
@@ -150,7 +165,7 @@ footer {
 }
 
 #img1-heroku-3 {
-    width: 900px;
+    width: 65%;
 }
 
 .Github-sammenligning {
@@ -171,9 +186,9 @@ footer {
     height: auto;
 }
 
-img {
+/* img {
     width: 100%;
     height: auto;
 }
-
+ */
 

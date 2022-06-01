@@ -32,7 +32,7 @@
     <h5 class="card-header text-center">Steg 1 - Lag en app på Heroku</h5>
     <div class="card-body">
       <h5 class="card-title">I din terminal, naviger deg til din mappe. Sørg for at alt er lastet opp på Github før du starter.</h5>
-        <img src="images/Steg1-heroku.png"class="card-img-top" class="mx-auto d-block" id="Steg1-heroku" alt="Bilde av kommandoen Heroku create"> 
+        <img src="images/Steg1-heroku.png"class="card-img-top" id="Steg1-heroku" alt="Bilde av kommandoen Heroku create"> 
         <p class="card-text">Da vil den begynne å lage din app på Heroku (som vil da gjøre slik at Heroku kan ta imot din kildekode) 
           og generere dine to lenker.</p> 
          <img src="images/Steg1-heroku-2.png"class="card-img-top"  alt="Bilde av dine to lenker">
@@ -43,17 +43,15 @@
         <p class="card-text">Sørg for at appen er klar, ved å skrive følgende kommando.</p>  
           <img src="images/Steg1-heroku-4.png"class="card-img-top"  alt="Bilde av kommandoen heroku ps:scale web=1 i terminalen"> <br> <br>
         <p class="card-text">Nå skal du gå til URlen generert av app navnet, som en snarvei kan du skrive inn følgende kommando.</p>  
-           <img src="images/Steg1-heroku-5.png" class="card-img-top" class="card-img-top" alt="Bilde av kommandoen heroku open"> <br> <br>
-      <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app" target="_blank" class="btn btn-dark">Dokumentasjon</a>
+           <img src="images/Steg1-heroku-5.png" class="card-img-top" class="card-img-top" alt="Bilde av kommandoen heroku open"> 
     </div>
   </div>
 
   <div class="card">
     <h5 class="card-header text-center">Steg 2 - Sjekke logen til din Heroku app</h5>
     <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
        <img src="images/Steg2-heroku.png" class="card-img-top" alt="Bilde av heroku logs">
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text">Skriv "heroku logs --tail" for å se på statusen til web appen din.</p>
     </div>
   </div>
 
@@ -61,9 +59,9 @@
     <h5 class="card-header text-center">Steg 3 - Lag en Procfile</h5>
     <div class="card-body">
       <h5 class="card-title">Bruk en Procfile, en tekstfil i din hoved directory til applikasjonen din, for å deklarere hvilken kommando som skal utføres for å starte appen.</h5>
-      <img src="images/Steg3-2heroku.png" class="card-img-top" alt="bilde av tekst der det står touch Procfile">
+      <img src="images/touch-proc.png" id="touch-proc" class="card-img-top" alt="bilde av tekst der det står touch Procfile">
       <p class="card-text">Nå skal du lage en Procfile. Det gjør du ved å skrive "touch Procfile" i vscode terminalen.</p>
-       <img src="images/Procfile2.png" class="card-img-top" id="img3-heroku" alt="bilde av tekst der det står web: node app.js">
+       <img src="images/Procfile2.png" id="procfile-definition" class="card-img-top" id="img3-heroku" alt="bilde av tekst der det står web: node app.js">
        <p class="card-text">I procfile skriv "web: node app.js"</p>
     </div>
   </div>
@@ -71,9 +69,9 @@
   <div class="card">
     <h5 class="card-header text-center">Steg 4 - Åpne Heroku nettsiden</h5>
     <div class="card-body">
-      <img src="images/Steg4-heroku.png" height="70" alt="Bilde av en random web app"/>
+      <img src="images/Steg4-heroku.png" id="Steg4-heroku" height="70" alt="Bilde av en random web app"/>
       <p class="card-text">For å finne din web app, må du navigere deg til <a href="https://dashboard.heroku.com/apps">Heroku sin dashboard.</a></p>
-      <img src="images/Steg4-2-heroku.png" alt="Bilde av web appen i heroku sine innstillinger">
+      <img src="images/Steg4-2-heroku.png" id="Steg4-heroku-2" alt="Bilde av web appen i heroku sine innstillinger">
       <p class="card-text">Etter du har klikket på heroku serveren din sitt navn, ser du dette.
         Nå skal du trykke på "open app" for å få nettsiden din opp.</p>
       <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#set-up" target="_blank"><button class="btn btn-dark">Offisiell Dokumentasjon</button></a>  
