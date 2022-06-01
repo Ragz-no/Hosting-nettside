@@ -133,6 +133,7 @@ footer {
 
 .card-text {
     margin-top: 1%;
+    font-size: 1.25rem;
 }
 
 
@@ -174,3 +175,5 @@ img {
     width: 100%;
     height: auto;
 }
+
+
