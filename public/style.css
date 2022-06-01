@@ -56,9 +56,8 @@ a {
     margin-bottom: 10%;
 }
 
-/* #tutorial-github {
 
-} */
+
 
 footer {
     background-color: #fff; 
@@ -125,6 +124,19 @@ footer {
         width: 70%;
    }
 }
+
+@media only screen and (min-width: 1026px) {
+    #Steg4-heroku-2 {
+        width: 90%;
+    }
+    
+    #Steg4-heroku {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
 
 /*HEROKU SEKSJON STARTER HER*/
 
