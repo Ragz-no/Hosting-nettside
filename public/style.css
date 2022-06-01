@@ -120,6 +120,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 950px) {
+   #my-video {
+        width: 70%;
+   }
+}
+
 /*HEROKU SEKSJON STARTER HER*/
 
 .card {
